@@ -9,17 +9,18 @@
   </head>
   <body>
     <div class="container">
-      <form>
+      <form onsubmit="event.preventDefault(); logar();">
         <h1>Acesse a sua conta</h1>
 
         <input type="email" id="email" placeholder="Digite seu e-mail" />
         <input type="password" id="senha" placeholder="Digite sua senha" />
-        <button onclick="logar()">Entrar</button>
+        <button type="submit">Entrar</button>
 
         <p id="mensagem"></p>
         <p id="loading" style="display: none">Carregando...</p>
       </form>
     </div>
+
     <script>
       const firebaseConfig = {
         apiKey: "AIzaSyBRAyqFg4WNWzz5E1LYuXkB0InO_DzwBWk",
