@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to top, #03045e, #0077b6, #00b4d8, #90e0ef, #caf0f8);
+    background-attachment: fixed;
+
+}
+
+html, body{
+    height: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+}
