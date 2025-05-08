@@ -50,6 +50,14 @@ main{
     }
 }
 
+//media de baixo é para manter resolucoes maiores como fr em 4
+
+@media (min-width: 769px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+    }
+}
+
 .items img{
     max-width: 130px;
     max-height: 130px;
