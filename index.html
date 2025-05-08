@@ -4,38 +4,75 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página Inicial F.U.B</title>
+    <link rel="stylesheet" href="./src/index.css" />
   </head>
   <body>
     <h1>Ferramentas</h1>
-    <main>
-      <div id="item1">
-        <a
-          href="https://www.nfe.fazenda.gov.br/portal/consultaRecaptcha.aspx?tipoConsulta=resumo"
-          target="_blank"
-        >
-          <img src="./assets/item1.jpg" alt="sefaz-nfe" />
-          <p>Consulta NFe Sefaz</p></a
-        >
-      </div>
+    <div class="container">
+      <main>
+        <div class="items" id="item1">
+          <a id="remoto" href=" https://suporte.alterdata.com.br">
+            <img src="./assets/item5.png" alt="remoto" />
+            <p>Alterdata Remoto <br />(COPIAR LINK)</p>
+          </a>
+        </div>
 
-      <div id="item2">
-        <a href="https://dfe-portal.svrs.rs.gov.br/Nfe/Ccc" target="_blank">
-          <img src="./assets/item2.png" alt="sefaz-dfe" />
-          <p>Dfe, consulta empresa</p>
-        </a>
-      </div>
-      <div id="item3">
-        <a href=" http://passad.alterdata.com.br">
-          <img src="./assets/item3.png" alt="Nfstock" />
-          <p>NFStock Interno</p>
-        </a>
-      </div>
-      <div class="item4">
-        <a href="https://nuvem.alterdata.com.br/">
-          <img src="./assets/item4.png" />
-          <p>Alterdata Nuvem</p>
-        </a>
-      </div>
-    </main>
+        <div class="items" id="item2">
+          <a href="https://dfe-portal.svrs.rs.gov.br/Nfe/Ccc" target="_blank">
+            <img src="./assets/item2.png" alt="sefaz-dfe" />
+            <p>Dfe consulta empresa</p>
+          </a>
+        </div>
+
+        <div class="items" id="item3">
+          <a href=" http://passad.alterdata.com.br" target="_blank">
+            <img src="./assets/item3.png" alt="Nfstock" />
+            <p>NFStock Interno</p>
+          </a>
+        </div>
+
+        <div class="items" id="item4">
+          <a href="https://nuvem.alterdata.com.br/">
+            <img src="./assets/item4.png" />
+            <p>Alterdata Nuvem</p>
+          </a>
+        </div>
+        <div class="items" id="item5">
+          <a
+            href="https://www.nfe.fazenda.gov.br/portal/consultaRecaptcha.aspx?tipoConsulta=resumo"
+            target="_blank"
+          >
+            <img src="./assets/item1.jpg" alt="sefaz-nfe" />
+            <p>Consulta NFe Sefaz</p></a
+          >
+        </div>
+
+        <div class="items" id="item6">
+          <a href="https://www.sefaz.rs.gov.br/NFE/NFE-VAL.aspx">
+            <img src="./assets/item6.png" />
+            <p>Validador XML</p>
+          </a>
+        </div>
+
+        <div class="items" id="item7">
+          <a
+            href="https://docs.google.com/spreadsheets/d/17pQxZlFiYnUDvjIIpmnTzDq-hj5uzQEjXnVNjlNQJL4/edit?gid=0#gid=0"
+          >
+            <img src="./assets/item7.jpg" alt="usuariocloud" />
+            <p>Planilha Usuarios Cloud</p>
+          </a>
+        </div>
+
+        <div class="items" id="item8">
+          <a
+            href="https://sites.google.com/alterdata.com.br/alt/página-inicial"
+          >
+            <img src="./assets/item8.png" />
+            <p>Site Alterdata Shop</p>
+          </a>
+        </div>
+      </main>
+    </div>
+    <script src="./scripts.js"></script>
   </body>
 </html>
